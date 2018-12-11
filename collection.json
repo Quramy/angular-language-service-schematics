@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "description": "Add angular language service plugin",
+      "factory": "./built/lang-service/index#install"
+    }
+  }
+}

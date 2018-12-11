@@ -1,0 +1,26 @@
+{
+  "name": "@quramy/angular-lang-service",
+  "version": "1.0.0",
+  "description": "A schematics to add @angular/language-service",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine built/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "Quramy",
+  "license": "MIT",
+  "schematics": "./collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^7.1.2",
+    "@angular-devkit/schematics": "^7.1.2",
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.31",
+    "jasmine": "^2.8.0",
+    "typescript": "~3.1.6"
+  },
+  "devDependencies": {
+    "@schematics/angular": "^7.1.2"
+  }
+}
