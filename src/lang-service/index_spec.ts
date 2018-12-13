@@ -35,7 +35,7 @@ function createTestApp(appOptions: any = { }): UnitTestTree {
 }
 
 describe('lang-service', () => {
-  it('should add @angular/language-service to package.json', () => {
+  it('should modify package.json and tsconfig.json', () => {
 
     const runner = new SchematicTestRunner('schematics', collectionPath);
     const tree = runner.runSchematic('ng-add', {}, createTestApp());
